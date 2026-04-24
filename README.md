@@ -198,3 +198,11 @@ proyecto-de-riesgos/
 
 Developed as an internal ERM/GRC tooling project.  
 For questions or contributions, contact the project maintainer directly.
+
+## Dashboard
+
+![Dashboard](docs/image.png)
+
+## PDF Report
+
+![PDF](docs/Cost_of_Inaction_Report.pdf)
