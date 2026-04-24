@@ -1,0 +1,13 @@
+control_id,name,base_effectiveness,description
+C_MFA,Multi-factor authentication,0.40,"Requires a second authentication factor in addition to the password, significantly reducing the risk of unauthorized access through credential theft or reuse."
+C_FW,Perimeter firewall,0.30,"Filters and controls incoming and outgoing network traffic, blocking unauthorized connections and limiting the attack surface of the infrastructure."
+C_MON,Monitoring and alerting,0.25,"Continuous supervision of systems, networks, and security events to detect anomalous activity or incidents at an early stage."
+C_BKP,Periodic backups,0.35,"Regular data and system backups enabling recovery after incidents such as ransomware, hardware failures, or human errors."
+C_POL,Security policies and training,0.20,"Internal policies and awareness programs that reduce human errors, poor practices, and insecure behavior among staff."
+C_SLA,Vendor SLA agreements,0.30,"Third-party contracts that define responsibilities, service levels, and security requirements to reduce vendor-related risks."
+C_PATCH,Patch and update management,0.30,"Systematic process of updating systems and applications to address known vulnerabilities and reduce exposure to exploits."
+C_AV,Antivirus and endpoint protection,0.25,"Endpoint protection software that detects and blocks malware, ransomware, and other threats on workstations and servers."
+C_SEG,Network segmentation,0.35,"Logical or physical separation of the network into segments to limit lateral movement by an attacker in the event of a compromise."
+C_IDS,IDS/IPS,0.30,"Intrusion detection and prevention systems that analyze network traffic to identify and block malicious activity."
+C_LOG,Centralized log management,0.20,"Centralized collection and analysis of log records to support incident detection, audits, and forensic investigation."
+C_BCP,Business continuity plan,0.30,"Procedures and plans that enable critical operations to be maintained or restored following a serious incident or disaster."

@@ -1,0 +1,24 @@
+risk_id,name,type_id,description
+R_TECH_01,Malware and infections,TECH,System infection by malware
+R_TECH_02,Ransomware,TECH,System encryption and ransom demand
+R_TECH_03,Weak credentials,TECH,Weak or reused passwords
+R_TECH_04,Unauthorized access,TECH,Improper access to systems or data
+R_TECH_05,Backup failure,TECH,Inability to recover information
+R_TECH_06,Technological obsolescence,TECH,Unsupported or outdated systems
+
+R_OPER_01,Internal process failures,OPER,Operational errors in key processes
+R_OPER_02,Key personnel dependency,OPER,Absence of critical staff
+R_OPER_03,Human errors,OPER,Incorrect actions due to lack of training
+R_OPER_04,Service interruption,OPER,Unplanned downtime
+R_OPER_05,Poor vendor management,OPER,Third-party non-compliance
+
+R_REG_01,GDPR non-compliance,REG,Penalties for poor personal data management
+R_REG_02,Contractual breach,REG,Failure to meet signed agreements
+R_REG_03,Absence of security policies,REG,Lack of internal regulatory framework
+
+R_FIN_01,Internal fraud,FIN,Misappropriation of funds by employees
+R_FIN_02,External fraud,FIN,Scams or fraud by third parties
+R_FIN_03,Liquidity problems,FIN,Insufficient liquidity to operate
+
+R_REP_01,Reputational damage from incidents,REP,Loss of customer trust
+R_REP_02,Public data exposure,REP,Unauthorized disclosure of information

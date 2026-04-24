@@ -1,0 +1,6 @@
+type_id,name,description
+TECH,Technological,Risks related to information systems and technology
+OPER,Operational,Risks arising from internal processes and operations
+REG,Regulatory,Legal and compliance risks
+FIN,Financial,Economic and financial risks
+REP,Reputational,Brand image and trust risks

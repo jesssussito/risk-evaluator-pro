@@ -1,0 +1,26 @@
+risk_id,risk_name,risk_category,risk_subcategory,probability,impact,current_controls,control_effectiveness,risk_owner,mitigation_cost,time_horizon,nist_reference
+R001,Incomplete Asset Inventory,ID,Asset Management,4,3,"Manual spreadsheet inventory; semi-annual review without automation",30,IT Manager,12000,Medium-term,ID.AM-1
+R002,Risk Assessment without Formal Methodology,ID,Risk Assessment,4,4,"Informal annual assessments; no documented standard or support tool",30,Risk Manager,12000,Medium-term,ID.RA-1
+R003,GDPR and Sector Regulation Non-compliance,ID,Governance,3,4,"DPO appointed; partial activity register; basic privacy training",60,Legal/DPO,25000,Short-term,ID.GV-1
+R004,Vendor Management without Due Diligence,ID,Risk Management Strategy,3,3,"Basic due diligence in contracts; no periodic security assessment",30,Risk Manager,20000,Medium-term,ID.RM-2
+R005,Uncontrolled Software Supply Chain,ID,Business Environment,3,5,"Occasional manual dependency review; no software composition analysis (SCA)",25,CISO,35000,Medium-term,ID.BE-1
+R006,Ransomware Attack,PR,Protective Technology,4,5,"Antivirus/EDR deployed; periodic backups; basic access policies implemented",45,CISO,45000,Short-term,PR.PT-1
+R007,Phishing and Social Engineering,PR,Awareness and Training,5,5,"Anti-spam email filters; mandatory annual training without phishing simulations",10,CISO,20000,Short-term,PR.AT-2
+R008,Unpatched Critical Systems,PR,Maintenance,5,5,"Manual monthly patching process; no centralized patch management",20,IT Manager,30000,Short-term,PR.MA-1
+R009,Inadequately Controlled Privileged Access,PR,Access Control,4,5,"Basic PAM implemented; semi-annual privilege review; no Just-In-Time access",12,IT Security,35000,Short-term,PR.AC-4
+R010,Sensitive Data Exposure (Data Breach),PR,Data Security,4,5,"Transit encryption implemented; partial data classification; basic DLP",20,CISO,50000,Short-term,PR.DS-1
+R011,Unmanaged BYOD Mobile Devices,PR,Access Control,4,3,"MDM partially deployed; basic BYOD policy without verified compliance",40,IT Security,18000,Medium-term,PR.AC-3
+R012,Insufficient Encryption of Data at Rest,PR,Data Security,3,4,"Partial encryption of critical databases; legacy storage unencrypted",45,IT Security,22000,Short-term,PR.DS-2
+R013,Weak Passwords and Absence of MFA,PR,Access Control,5,5,"Basic password policy; MFA only on external critical services",18,IT Security,15000,Short-term,PR.AC-1
+R014,Absence of Continuous Cybersecurity Training,PR,Awareness and Training,5,4,"Mandatory annual training; no simulations; no awareness metrics",35,HR/CISO,10000,Short-term,PR.AT-1
+R015,Undetected Intrusion - Persistent APT,DE,Security Continuous Monitoring,3,5,"Basic SIEM with manual alerts; no advanced correlation or threat hunting",25,CISO,60000,Short-term,DE.CM-1
+R016,Insider Threat,DE,Anomalies and Events,3,5,"Basic activity monitoring; no insider-specific UBA/DLP tools",20,CISO,45000,Medium-term,DE.AE-2
+R017,Insufficient Security Monitoring,DE,Security Continuous Monitoring,5,4,"Basic SIEM operational; partial asset coverage; no response playbooks",25,SOC Lead,30000,Short-term,DE.CM-3
+R018,DDoS Attack,DE,Anomalies and Events,3,3,"CDN with basic DDoS mitigation contracted; no automatic activation threshold",55,IT Manager,25000,Medium-term,DE.AE-3
+R019,Absence of Incident Response Plan,RS,Response Planning,5,4,"Informal documented procedures; no simulations or tabletop exercises",15,CISO,15000,Short-term,RS.RP-1
+R020,Inadequate Crisis Communication,RS,Communications,3,3,"Basic internal communication protocol; no plan for external stakeholders",25,Comms Manager,8000,Medium-term,RS.CO-1
+R021,Vulnerability Management without Formal Process,RS,Mitigation,5,5,"Ad-hoc scans; no remediation process with SLA or risk-based prioritization",18,IT Manager,28000,Short-term,RS.MI-3
+R022,Insufficient Post-Incident Forensic Analysis,RS,Analysis,3,3,"Basic forensic capabilities; no specialized team or formal chain of custody",20,CISO,10000,Long-term,RS.AN-1
+R023,Untested Disaster Recovery Plan,RC,Recovery Planning,3,5,"BCP documented; RTO/RPO defined; no tests in the last 18 months",30,IT Manager,40000,Medium-term,RC.RP-1
+R024,Outdated Business Continuity Plan,RC,Improvements,3,4,"Continuity plan with annual review; no update after organizational changes",30,Risk Manager,20000,Long-term,RC.IM-1
+R025,Inadequately Managed Cloud Environment Security,PR,Protective Technology,3,3,"Basic CSPM implemented; cloud configurations reviewed semi-annually",55,IT Security,32000,Short-term,PR.PT-2
